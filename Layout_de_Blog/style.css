@@ -1,0 +1,121 @@
+* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background: rgb(91, 142, 91);
+  color: antiquewhite;
+  padding: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+nav li:hover{
+    background: rgb(157, 216, 157);
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 30px;
+}
+
+/* Layout principal */
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Artigos */
+.artigos {
+  flex: 3;
+}
+
+.wicked {
+  background: rgb(157, 216, 157);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.legally {
+  background: rgb(248, 125, 221);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background: antiquewhite;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background: rgb(91, 142, 91);
+  color: antiquewhite;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-top: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+h3{
+    color: rgb(91, 142, 91);
+}

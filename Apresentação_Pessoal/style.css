@@ -1,0 +1,86 @@
+body{
+   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background: rgb(91, 142, 91);
+    color: antiquewhite;
+    padding: 15px;
+
+}
+h1{
+     color: antiquewhite;
+     text-align: center;
+}
+
+h2{
+    color: rgb(91, 142, 91);
+    text-align: center;
+}
+
+
+
+main{
+    padding: 20px;
+}
+
+.conteudo{
+    display: flex;
+    gap: 20px;
+}
+
+.texto{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.texto a{
+    font-size: 30px;
+    color: rgb(91, 142, 91);
+}
+
+
+.imgagem{
+    flex: 1;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+
+@media (max-width:768px){
+    .conteudo{
+        flex-direction: column-reverse;
+    }
+
+    .h1{
+        flex-direction: column-reverse;
+    }
+
+    .texto{
+        flex-direction: column-reverse;
+    }
+
+    
+
+}
+
+p{
+    color: rgb(91, 142, 91);
+    text-align: center; /* Alinha o texto ao centro */
+    line-height: 25px; /* Define a altura da linha para 25px */
+    margin-bottom: 20px; /* Adiciona 20px de margem abaixo do parágrafo */
+}
+
+.links{
+    color: rgb(91, 142, 91);
+}
+
+
+
