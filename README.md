@@ -59,8 +59,10 @@ São exercícios simples, mas que ajudam a treinar conceitos fundamentais para c
 
  🚀 Tecnologias Utilizadas
 - HTML5  
-- CSS3 (Flexbox, Grid, Media Queries)  
+- CSS3 (Flexbox, Grid, Media Queries)
 
+
+🖼️ IMAGENS
 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f48f6040-65c9-4e8b-bc57-99c99a458654" />
