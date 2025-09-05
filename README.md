@@ -66,7 +66,7 @@ São exercícios simples, mas que ajudam a treinar conceitos fundamentais para c
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f48f6040-65c9-4e8b-bc57-99c99a458654" />
 
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3788131c-2a26-46a1-8cd0-f3603f5c3805" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/20e29d8c-2ca9-4abd-a151-b74121a5346e" />
 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ef3b5ee5-1f06-46e7-bb45-8df92592e7fb" />
