@@ -12,8 +12,9 @@ body {
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background:#011F26;
+      background:#593A1E;
       color: #fff;
+      border-bottom: white;
     }
 
     header h1 {
@@ -31,6 +32,7 @@ body {
       margin: 0;
       padding: 0;
       justify-content: center;
+      border-bottom: white;
       
     }
 
@@ -42,7 +44,7 @@ body {
     }
 
     nav a:hover {
-     background:#2A5559;
+     background:#261F15;
     cursor: pointer;
     transition: 0.5s ease;
     font-size: 30px;
@@ -51,7 +53,7 @@ body {
     /* Banner */
     .banner {
       text-align: center;
-      background: url("https://source.unsplash.com/1600x500/?concert") center/cover no-repeat;
+      background: url("https://cdn.getcrowder.com/images/3c13f458-5f23-4135-8ff2-507b25171dd6-theweeknd20261920x720landing.gif") center/cover no-repeat;
       color: #fff;
       padding: 4rem 2rem;
     }
@@ -60,7 +62,7 @@ body {
       font-size: 2.5rem;
       margin: 0;
       text-shadow: 2px 2px 6px;
-      color: black;
+      color:white;
     }
 
     /* Seção principal */
@@ -101,7 +103,7 @@ body {
     footer {
       text-align: center;
       padding: 1.5rem;
-      background:#011F26;
+      background:#593A1E;
       color: white;
     }
 
